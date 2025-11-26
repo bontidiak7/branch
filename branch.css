@@ -31,3 +31,40 @@ label {
     color: #2a5298;
     margin-bottom: 4px;
 }
+input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #b6c6e3;
+    border-radius: 8px;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.2s;
+}
+input[type="text"]:focus {
+    border-color: #2a5298;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #b6c6e3;
+    font-size: 1em;
+    background: #f5faff;
+    color: #2a5298;
+}
+
+button#calculateBtn {
+    background: linear-gradient(90deg, #2a5298 0%, #1e3c72 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(42, 82, 152, 0.08);
+    transition: background 0.2s;
+}
+button#calculateBtn:hover {
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+}
