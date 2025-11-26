@@ -68,3 +68,29 @@ button#calculateBtn {
 button#calculateBtn:hover {
     background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
 }
+h2 {
+    text-align: center;
+    color: #1e3c72;
+    margin-top: 24px;
+    font-size: 1.4em;
+}
+
+#eredmeny {
+    background: #fff;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(42, 82, 152, 0.08);
+    font-size: 1.1em;
+    color: #2a5298;
+    text-align: center;
+}
+
+#vennCanvas {
+    display: block;
+    margin: 0 auto 40px auto;
+    background: #f5faff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(42, 82, 152, 0.08);
+}
